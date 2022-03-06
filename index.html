@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Space Cake</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container logo-nav-container">
+                <a href="#" class="logo">Space Cake</a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sabores">Menú</a></li>
+                        <li><a href="#form">Haz tu pedido</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="logotipo" id="inicio">
+                    <img src="images/space-cake.png" alt="logotipo space cake" width="700px" height="700px">
+                </section>
+                <div id="sabores">
+                    <h1>Sabores</h1>
+                    <dl>
+                        <dt>Chocolate</dt><br>
+                        <dd><img src="images/chocolate.jpg" alt="sabor chocolate" width="250px" height="150px"></dd><br><br>
+                        <dt>Vainilla</dt><br>
+                        <dd><img src="images/vainilla.png" alt="sabor vainilla" width="250px" height="150px"></dd><br><br>
+                        <dt>Fresa</dt><br>
+                        <dd><img src="images/fresa.jpg" alt="sabor fresa" width="250px" height="150px"></dd><br><br>
+                        <dt>Limón</dt><br>
+                        <dd><img src="images/limon.jpg" alt="sabor limón" width="250px" height="150px"></dd><br><br>
+                        <dt>Frutas</dt><br>
+                        <dd><img src="images/frutas.jpg" alt="sabor frutas" width="250px" height="150px"></dd><br><br>
+                    </dl>
+                </div>
+                <div id="adornos">
+                    <h1>Adornos</h1>
+                    <dl>
+                        <dt>Velas</dt><br>
+                        <dd><img src="images/velas.jpg" alt="velas" width="150px" height="100px"></dd><br><br>
+                        <dt>Adorno "Feliz Cumpleaños"</dt><br>
+                        <dd><img src="images/feliz.jpg" alt="adorno feliz cumpleaños" width="150px" height="100px"></dd><br><br>
+                    </dl>
+                </div>
+                <form id="form">
+                    <h1>¡Haz tu pedido!</h1>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"><br><br>
+                    <label for="tel1">Teléfono:</label>
+                    <input type="tel" id="tel1" name="tel1"><br><br>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo"><br><br>
+                    <label for="descripcion">Descripción del pastel:</label><br>
+                    <textarea name="descripcion" id="descripcion" placeholder="Descripción de tu pastel..."></textarea><br><br>
+                    <h3>Sabores</h3>
+                    <input type="radio" id="chocolate" name="sabores" value="chocolate">
+                    <label for="chocolate">Chocolate</label><br>
+                    <input type="radio" id="vainilla" name="sabores" value="vainilla">
+                    <label for="vainilla">Vainilla</label><br>
+                    <input type="radio" id="fresa" name="sabores" value="fresa">
+                    <label for="fresa">Fresa</label><br>
+                    <input type="radio" id="limon" name="sabores" value="limon">
+                    <label for="limon">Limón</label><br>
+                    <input type="radio" id="frutas" name="sabores" value="frutas">
+                    <label for="frutas">Frutas</label><br><br>
+                    <h3>Adornos</h3>
+                    <input type="radio" id="velas" name="adornos" value="velas">
+                    <label for="velas">Velas</label><br>
+                    <input type="radio" id="feliz" name="adornos" value="feliz">
+                    <label for="feliz">Adorno de Feliz Cumpleaños</label><br><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </form>
+                <section id="contacto">
+                    <h1>Contacto</h1>
+                    <p>Dirección: ---</p>
+                    <p>Teléfono: 56379920</p><br>
+                    <p><b>Horarios de antención</b></p>
+                    <dl>
+                        <dt>Lunes</dt><br>
+                        <dd>9:00 am - 7:30 pm</dd><br><br>
+                        <dt>Martes</dt><br>
+                        <dd>9:00 am - 7:30 pm</dd><br><br>
+                        <dt>Miércoles</dt><br>
+                        <dd>9:00 am - 7:30 pm</dd><br><br>
+                        <dt>Jueves</dt><br>
+                        <dd>9:00 am - 7:30 pm</dd><br><br>
+                        <dt>Viernes</dt><br>
+                        <dd>10:00 am - 7:30 pm</dd><br><br>
+                        <dt>Sábado</dt><br>
+                        <dd>11:00 am - 5:30 pm</dd><br><br>
+                        <dt>Domingo</dt><br>
+                        <dd>11:00 am - 5:30 pm</dd><br><br>
+                    </dl>
+                </section>
+            </div>
+        </main><!--fin "main"-->
+        <footer>
+            <div class="information">
+            </div>
+        </footer>
+    </body>
+</html>
